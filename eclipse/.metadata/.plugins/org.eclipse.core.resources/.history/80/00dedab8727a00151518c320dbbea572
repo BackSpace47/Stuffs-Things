@@ -1,0 +1,15 @@
+package com.StuffsandThings.core;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = Reference.ModID, name = Reference.Name, version = Reference.Version)
+
+public class StuffsandThings 
+	
+{
+		@Mod.Eventhandler
+		public void preinit(FMLPreInitilizationEvent event)
+		{
+			
+		}
+}
